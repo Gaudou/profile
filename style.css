@@ -1,0 +1,111 @@
+body {
+  background-color: #393A3E;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+body h1 {
+  font-size: 50px;
+  color: #fffbdf;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #fffbdf;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.selector {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a:hover{
+  color: #f7a440;
+  border: 1px solid #f7a440;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size : 32px;
+  letter-spacing: 1px;
+  color: ##f7a440;
+}
+
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: #1F2124;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.btn-orange {
+    color: white;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+
+#footer {
+  color: white;
+  font-size: 20px;
+}
+
+#footer:hover {
+  border: none;
+  color: red;
+}
+
+#top_card {
+  border-top: 1px solid #f7a440;
+}
+
+#end_of_page {
+  font-size: 8px;
+  font-family: 'Noto Sans JP', sans-serif;
+  opacity: 0.5;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
